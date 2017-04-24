@@ -2,7 +2,7 @@ Package: basecallQC
 Type: Package
 Title: Working with Illumina Basecalling and Demultiplexing input and
         output files
-Version: 0.99.1
+Version: 1.0.0
 Author: Thomas Carroll and Marian Dore
 Maintainer: Thomas Carroll <tc.infomatics@gmail.com>
 Description: The basecallQC package provides tools to work with
