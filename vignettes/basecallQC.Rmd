@@ -8,7 +8,7 @@ author:
   affiliation: MRC LMS
 package: basecallQC
 output:
-  BiocStyle::html_document2
+  BiocStyle::html_document
 abstract: |
   The basecallQC package provides tools to work with input and output files from Illumina basecalling and demultiplexing software, bcl2fastq (versions >= 2.1.7) 
 vignette: |
