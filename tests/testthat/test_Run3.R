@@ -12,6 +12,6 @@ bclQC <- basecallQC(bcl2fastqparams,RunMetaData=NULL,sampleSheet)
 
 
 expect_that(length(unique(bclQC@cleanedSampleSheet$Sample_Project)) ==
-              length(levels(read.delim(sampleSheet,header=T,sep=",")$Project)),
+              length(levels(read.delim(sampleSheet,header=T,sep=",",stringsAsFactors = TRUE)$Project)),
             is_true()
 )
